@@ -1,3 +1,6 @@
+##数据清理下次搞好，注意缺失值。
+
+
 #1.工作路径设置
 
 setwd("G:/AAA/")
@@ -305,3 +308,4 @@ interaction_plot <- ggplot(pred_data, aes(x = Proficiency, y = yvar,
 print(interaction_plot)
 ggsave("Table_6_Interaction_Patterns.png", interaction_plot,
        width = 12, height = 6, dpi = 300, bg = "white")
+
